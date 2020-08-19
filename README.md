@@ -17,5 +17,5 @@ stack test
 ### Execute Main App
 
 ```bash
-stack exec haskell-http-exe
+stack run
 ```
