@@ -21,17 +21,14 @@ dependencies:
   - aeson
   - http-client
   - http-conduit
+  - http-types
   - text
-  - unordered-containers
-  - lens-aeson
-  - lens
-  - vector
 
 library:
   source-dirs: src
 
 executables:
-  haskell-http-exe:
+  chuck:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
